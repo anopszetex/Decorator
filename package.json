@@ -1,0 +1,26 @@
+{
+  "name": "decorator",
+  "version": "1.0.0",
+  "description": "it's a simple practice using the principle of design patterns, the decorator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node example/http-server.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --config ./jest.config.js --watchAll",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config ./jest.config.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anopszetex/Decorator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anopszetex/Decorator/issues"
+  },
+  "homepage": "https://github.com/anopszetex/Decorator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
