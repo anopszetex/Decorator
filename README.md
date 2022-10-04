@@ -32,5 +32,5 @@ npm run example
 npm run test
 
 # run coverage
-npm run example
+npm run test:cov
 ```
